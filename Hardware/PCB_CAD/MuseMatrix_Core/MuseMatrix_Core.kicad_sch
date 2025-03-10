@@ -1,0 +1,465 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "473e845e-7ed3-42b5-aa14-5895a6f0c76b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 132.2 24.7)
+		(size 60.8 31.2)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 37 102 1.0000)
+		)
+		(uuid "804dea6d-a0a4-468a-af5f-0c809704b14f")
+		(property "Sheetname" "Raspberry_connections"
+			(at 132.2 23.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Raspberry_connections.kicad_sch"
+			(at 132.2 56.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 193 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f9569eb-d192-4919-9a1f-b970216bb6fb")
+		)
+		(pin "3.3V" input
+			(at 193 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8e588b4-8462-4dde-b3c8-2a9e982c96aa")
+		)
+		(pin "I2C_SDA" input
+			(at 193 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea6b81cc-32ab-487c-a41a-4b2403bcd0ef")
+		)
+		(pin "I2C_SCL" input
+			(at 193 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7566e0a4-8c87-4d83-933c-9555e1c1221a")
+		)
+		(pin "GND" input
+			(at 193 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47a01a1b-e5df-4b94-a20b-a2abe1f24c66")
+		)
+		(instances
+			(project "MuseMatrix_Core"
+				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.1 110.9)
+		(size 51.4 38.2)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87634a3e-a16c-4e1a-8724-f7b86e6a4f09")
+		(property "Sheetname" "Main_board"
+			(at 92.1 110.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main_Board.kicad_sch"
+			(at 92.1 149.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "jst0" input
+			(at 92.1 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42e7f044-2053-4033-aecd-4376b713c7d7")
+		)
+		(pin "jst1" input
+			(at 92.1 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a71c53b5-a6de-4cdf-b210-b98028f7d965")
+		)
+		(pin "jst2" input
+			(at 92.1 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e51883c7-63c6-4e0b-a68e-119cd129acd8")
+		)
+		(pin "3.3" input
+			(at 92.1 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d0504fb-2ed9-458c-84e5-bf1660724a67")
+		)
+		(pin "jst3" input
+			(at 92.1 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "00071a15-92da-4008-8ed5-9e4e7374e2bf")
+		)
+		(pin "clock1_input" input
+			(at 132.08 110.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a6ec7d2-4d82-4cdd-9bb4-74bcfd06217e")
+		)
+		(pin "jst5" input
+			(at 92.1 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0cee1d4b-df0f-4191-a985-12c39b5cae26")
+		)
+		(pin "jst4" input
+			(at 92.1 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2866ca73-d865-4f9f-978a-e639dfeb16f7")
+		)
+		(pin "Parallel_Load" input
+			(at 129.54 110.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8cd31ed8-21db-4cd4-a79e-eeaa9d8f85f3")
+		)
+		(pin "jst6" input
+			(at 92.1 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7862d550-82d4-47e9-b4b3-7354b8cfa429")
+		)
+		(pin "Row_Serial_L" input
+			(at 143.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "754e9bc2-7444-4824-9899-669cef9c9d3b")
+		)
+		(pin "Rst" input
+			(at 134.62 110.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0b79ffd-dc15-405b-9b33-616ff8f0c53d")
+		)
+		(pin "no_en" input
+			(at 137.16 110.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb3fe48c-ef98-41ae-b8e9-94d038bd3535")
+		)
+		(pin "Storage_Clock" input
+			(at 125.73 110.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d3b3767-254d-4d40-b72f-f14776791f4c")
+		)
+		(pin "Shift_Clock" input
+			(at 121.92 110.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b715e51-2fd5-4977-8c09-619608475364")
+		)
+		(pin "Row_Serial_H" input
+			(at 143.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8490fc48-7628-4739-80fd-ab55f75dbd74")
+		)
+		(pin "Serial_Column_input" input
+			(at 119.38 110.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e498969-6e2e-46ef-ae6e-cd7e6d83cd25")
+		)
+		(pin "c1" input
+			(at 92.1 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65b31965-2a82-404a-a5f8-03cd0b23a192")
+		)
+		(pin "c0" input
+			(at 92.1 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a460fef-a6a1-414d-8bf4-f7345055eced")
+		)
+		(pin "c2" input
+			(at 92.1 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b764027b-692a-4d12-8cf7-0ff13dbe07b4")
+		)
+		(pin "c3" input
+			(at 92.1 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2aabe57-1155-4fa4-886b-d4a97f9e67d8")
+		)
+		(pin "c4" input
+			(at 92.1 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e5ea11e-6e7e-4120-80a8-80fba1f00add")
+		)
+		(pin "c7" input
+			(at 101.6 149.1 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19a312a9-7a07-4463-b23f-29e79e477be5")
+		)
+		(pin "c6" input
+			(at 99.06 149.1 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5dea579-91c8-4814-b76d-853e9a8c802c")
+		)
+		(pin "c5" input
+			(at 96.52 149.1 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b01958d5-84f4-45d8-b4b2-a0ae857d0660")
+		)
+		(instances
+			(project "MuseMatrix_Core"
+				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.7 80.2)
+		(size 80.8 36.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a77034fe-2995-4481-9691-2607c0f0b0a8")
+		(property "Sheetname" "GPIO_Matrix"
+			(at 153.7 79.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO_Matrix.kicad_sch"
+			(at 153.7 117.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MuseMatrix_Core"
+				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.9 57.1)
+		(size 13.3 54)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed4494d0-8946-4ba9-a797-3fefaa08853d")
+		(property "Sheetname" "Column_7_Rows"
+			(at 15.9 56.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Column_7_Rows.kicad_sch"
+			(at 15.9 111.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MuseMatrix_Core"
+				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
