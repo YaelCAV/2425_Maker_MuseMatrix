@@ -1319,6 +1319,17 @@
 		)
 		(uuid "fe289f1c-5f15-4087-939d-906e86c4c590")
 	)
+	(hierarchical_label "ADC_clock"
+		(shape input)
+		(at 212.09 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bdf19b9-b390-4300-9725-9c07520d8f76")
+	)
 	(hierarchical_label "DATA_OUT_ADC"
 		(shape input)
 		(at 212.09 97.79 0)
@@ -1340,6 +1351,17 @@
 			(justify left)
 		)
 		(uuid "b547bdbe-f443-46d1-a8ed-9f359b239c66")
+	)
+	(hierarchical_label "select"
+		(shape input)
+		(at 212.09 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed6dacd3-a2d6-41d5-86f4-c84328aca3f5")
 	)
 	(symbol
 		(lib_id "power:GND")

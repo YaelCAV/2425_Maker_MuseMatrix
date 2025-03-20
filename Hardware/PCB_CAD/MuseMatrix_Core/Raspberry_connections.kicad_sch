@@ -812,16 +812,42 @@
 			)
 		)
 	)
-	(hierarchical_label "5V"
+	(no_connect
+		(at 168.91 53.34)
+		(uuid "48c0878c-0760-40cd-aeaa-ad1ab5a42daa")
+	)
+	(hierarchical_label "ADC_data_out"
 		(shape input)
-		(at 168.91 53.34 0)
+		(at 168.91 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "19b0afdd-ea07-46ac-806d-874a3574b4a2")
+		(uuid "055fd865-ea53-43ab-a89e-6f64c4d51de0")
+	)
+	(hierarchical_label "ADC_select"
+		(shape input)
+		(at 168.91 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fa40243-2adf-43b7-adf3-a39ab48a21f0")
+	)
+	(hierarchical_label "ADC_data_in"
+		(shape input)
+		(at 168.91 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d5334aa-c3d7-4cbb-8c31-5e6044ceef0a")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -834,16 +860,27 @@
 		)
 		(uuid "4b39bbcf-261f-4603-a329-ed5103e5f21d")
 	)
-	(hierarchical_label "I2C_SDA"
+	(hierarchical_label "clock_595"
 		(shape input)
-		(at 168.91 68.58 0)
+		(at 102.87 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c2dcd58-5f9a-4177-aacd-3a5e38614863")
+	)
+	(hierarchical_label "ADC_clock"
+		(shape input)
+		(at 168.91 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "923e02ff-3f66-407d-9144-4afc5af2ad7d")
+		(uuid "738e3927-d455-4666-9993-375c5faad5f6")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -856,16 +893,71 @@
 		)
 		(uuid "929a9c77-fcc9-4146-9daa-47dbbd1c2552")
 	)
-	(hierarchical_label "I2C_SCL"
+	(hierarchical_label "midi_out"
 		(shape input)
-		(at 168.91 71.12 0)
+		(at 102.87 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9750520d-c7ee-4a3e-8bc5-0e78d8e6200f")
+		(uuid "a697f718-83b2-4832-bd47-e4d488f09319")
+	)
+	(hierarchical_label "data_595"
+		(shape input)
+		(at 102.87 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b15d485c-8ced-4537-8216-4a65323c8527")
+	)
+	(hierarchical_label "Clock_165"
+		(shape input)
+		(at 102.87 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4c14455-cb51-466e-950e-11ce447fbb92")
+	)
+	(hierarchical_label "parallel_load_165"
+		(shape input)
+		(at 102.87 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf7a586b-905a-4fbf-b06c-2de045dea127")
+	)
+	(hierarchical_label "Serial_out_165"
+		(shape input)
+		(at 102.87 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb4ef6d3-2ed3-44fe-ae63-8cb4f8186f90")
+	)
+	(hierarchical_label "latch_595"
+		(shape input)
+		(at 102.87 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1220370-0f2a-41a3-b192-a245ecfb6ca4")
 	)
 	(symbol
 		(lib_id "Connector:Raspberry_Pi_4")
@@ -893,7 +985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x16_P1.00mm_Vertical"
 			(at 205.994 123.698 0)
 			(effects
 				(font
