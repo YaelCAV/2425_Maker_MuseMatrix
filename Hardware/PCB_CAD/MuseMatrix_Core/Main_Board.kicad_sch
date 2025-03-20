@@ -1533,6 +1533,10 @@
 			)
 		)
 	)
+	(no_connect
+		(at 116.84 54.61)
+		(uuid "b61bd15d-6262-45a4-8e24-36e869ddc9c0")
+	)
 	(hierarchical_label "jst3"
 		(shape input)
 		(at 35.56 63.5 180)
@@ -1588,7 +1592,7 @@
 		)
 		(uuid "2580d888-30a4-4fd4-8afd-8248e719469e")
 	)
-	(hierarchical_label "Serial_Column_input"
+	(hierarchical_label "DATA_IN_595"
 		(shape input)
 		(at 161.29 57.15 180)
 		(effects
@@ -1610,7 +1614,7 @@
 		)
 		(uuid "389f84fa-a944-4ad4-8402-4f80f134d5a4")
 	)
-	(hierarchical_label "Shift_Clock"
+	(hierarchical_label "clock_595"
 		(shape input)
 		(at 161.29 62.23 180)
 		(effects
@@ -1675,17 +1679,6 @@
 			(justify right)
 		)
 		(uuid "62cb25f1-7378-4546-8fa6-4acbd59d4f1d")
-	)
-	(hierarchical_label "no_en"
-		(shape input)
-		(at 161.29 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64de66f0-ac85-47a2-93c2-a2929d52d04c")
 	)
 	(hierarchical_label "c3"
 		(shape input)
@@ -1775,7 +1768,7 @@
 		)
 		(uuid "9c350270-4bd2-423e-a0bb-eb156ac96685")
 	)
-	(hierarchical_label "clock1_input"
+	(hierarchical_label "clock_165"
 		(shape input)
 		(at 91.44 82.55 180)
 		(effects
@@ -1808,7 +1801,7 @@
 		)
 		(uuid "ac66f878-8972-4682-87af-184dda27e7e6")
 	)
-	(hierarchical_label "Storage_Clock"
+	(hierarchical_label "LATCH_595"
 		(shape input)
 		(at 161.29 69.85 180)
 		(effects
@@ -1830,7 +1823,7 @@
 		)
 		(uuid "b0b6e1e3-445c-4998-9f86-4a28f4280b3a")
 	)
-	(hierarchical_label "Parallel_Load"
+	(hierarchical_label "LOAD_165"
 		(shape input)
 		(at 91.44 77.47 180)
 		(effects
@@ -1885,7 +1878,7 @@
 		)
 		(uuid "c58d392e-90fb-4e24-9e55-51777c288d83")
 	)
-	(hierarchical_label "Row_Serial_H"
+	(hierarchical_label "DATA_OUT_165"
 		(shape input)
 		(at 116.84 52.07 0)
 		(effects
@@ -1939,28 +1932,6 @@
 			(justify right)
 		)
 		(uuid "e11a269b-7d85-401d-bdbb-811e578c580c")
-	)
-	(hierarchical_label "Row_Serial_L"
-		(shape input)
-		(at 116.84 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e30b1506-6524-49a8-a160-d548a4f6c12a")
-	)
-	(hierarchical_label "Rst"
-		(shape input)
-		(at 161.29 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4223e64-03d1-417a-80d2-30ef4d031ee5")
 	)
 	(hierarchical_label "3.3"
 		(shape input)
@@ -2202,7 +2173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 104.14 67.31 0)
 			(effects
 				(font
@@ -2314,7 +2285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 223.52 77.47 0)
 			(effects
 				(font
@@ -2387,7 +2358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 223.52 118.11 0)
 			(effects
 				(font
@@ -2460,7 +2431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 223.52 57.15 0)
 			(effects
 				(font
@@ -2567,6 +2538,73 @@
 			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/87634a3e-a16c-4e1a-8724-f7b86e6a4f09"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4821af45-9eb6-4830-92eb-bae7110cbcc6")
+		(property "Reference" "#PWR058"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 157.48 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "651792fb-5c6b-4c2a-9f72-286a8acbd1bc")
+		)
+		(instances
+			(project ""
+				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/87634a3e-a16c-4e1a-8724-f7b86e6a4f09"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2734,7 +2772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 223.52 107.95 0)
 			(effects
 				(font
@@ -3008,7 +3046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 223.52 67.31 0)
 			(effects
 				(font
@@ -3148,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B7B-EH-A_1x07_P2.50mm_Vertical"
 			(at 40.64 63.5 0)
 			(effects
 				(font
@@ -3300,7 +3338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 223.52 87.63 0)
 			(effects
 				(font
@@ -3440,7 +3478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -3618,7 +3656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -3725,6 +3763,73 @@
 			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/87634a3e-a16c-4e1a-8724-f7b86e6a4f09"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d663a7be-346c-445f-9995-2e2b4cfc03af")
+		(property "Reference" "#PWR059"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "265cf5e8-e42e-47b7-abd7-ea2b1292ce94")
+		)
+		(instances
+			(project ""
+				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/87634a3e-a16c-4e1a-8724-f7b86e6a4f09"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3993,6 +4098,72 @@
 			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/87634a3e-a16c-4e1a-8724-f7b86e6a4f09"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8bd5bab-ef18-4e18-a292-bafad25dcb9c")
+		(property "Reference" "#PWR060"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9e3dc39-0452-4ac8-92ba-2a5ae4bbae0a")
+		)
+		(instances
+			(project ""
+				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/87634a3e-a16c-4e1a-8724-f7b86e6a4f09"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)

@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 214.3 31.6)
+		(size 48.8 27.9)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "078f7583-76df-43f4-a077-e66a6442af1b")
+		(property "Sheetname" "Octaves board"
+			(at 214.3 30.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "octaves.kicad_sch"
+			(at 214.3 60.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MuseMatrix_Core"
+				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 132.2 24.7)
 		(size 60.8 31.2)
 		(fields_autoplaced yes)
