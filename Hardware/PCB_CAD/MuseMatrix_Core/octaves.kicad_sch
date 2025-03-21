@@ -1322,6 +1322,7 @@
 	(hierarchical_label "ADC_clock"
 		(shape input)
 		(at 212.09 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1333,6 +1334,7 @@
 	(hierarchical_label "DATA_OUT_ADC"
 		(shape input)
 		(at 212.09 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1344,6 +1346,7 @@
 	(hierarchical_label "DATA_IN_ADC"
 		(shape input)
 		(at 212.09 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1355,6 +1358,7 @@
 	(hierarchical_label "select"
 		(shape input)
 		(at 212.09 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1489,7 +1493,7 @@
 			(uuid "10cfc5a1-a527-4a54-80a8-b51be9cdc1d9")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/078f7583-76df-43f4-a077-e66a6442af1b"
 					(reference "#PWR063")
 					(unit 1)
@@ -1555,7 +1559,7 @@
 			(uuid "cf2fd6c6-62b1-48f4-b633-b7e951cb5f23")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/078f7583-76df-43f4-a077-e66a6442af1b"
 					(reference "#PWR071")
 					(unit 1)
@@ -1695,7 +1699,7 @@
 			(uuid "b1779af8-b37a-4182-8f41-f28050af439b")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/078f7583-76df-43f4-a077-e66a6442af1b"
 					(reference "RV1")
 					(unit 1)
@@ -1901,7 +1905,7 @@
 			(uuid "50b557f1-c933-416c-ba28-6c9b0d6a5131")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/078f7583-76df-43f4-a077-e66a6442af1b"
 					(reference "#PWR061")
 					(unit 1)
@@ -2433,7 +2437,7 @@
 			(uuid "c604509b-8630-47f4-ad11-f78fd1e0fc25")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/078f7583-76df-43f4-a077-e66a6442af1b"
 					(reference "U1")
 					(unit 1)
@@ -2712,7 +2716,7 @@
 			(uuid "4fcb19f4-4c8b-4cf7-aea5-e2fdf8c011b5")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/078f7583-76df-43f4-a077-e66a6442af1b"
 					(reference "#PWR070")
 					(unit 1)

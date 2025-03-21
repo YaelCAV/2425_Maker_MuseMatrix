@@ -2637,6 +2637,7 @@
 	)
 	(label "column_voltage2"
 		(at 49.53 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2647,6 +2648,7 @@
 	)
 	(label "d5_0"
 		(at 138.43 130.81 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2657,6 +2659,7 @@
 	)
 	(label "d5_1"
 		(at 137.16 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2667,6 +2670,7 @@
 	)
 	(label "column_voltage2"
 		(at 49.53 198.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2677,6 +2681,7 @@
 	)
 	(label "d7_1"
 		(at 191.77 123.19 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2687,6 +2692,7 @@
 	)
 	(label "d7_0"
 		(at 138.43 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2697,6 +2703,7 @@
 	)
 	(label "d7_1"
 		(at 137.16 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2707,6 +2714,7 @@
 	)
 	(label "d4"
 		(at 17.78 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2717,6 +2725,7 @@
 	)
 	(label "column_voltage"
 		(at 152.4 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2727,6 +2736,7 @@
 	)
 	(label "column_voltage"
 		(at 49.53 -50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2737,6 +2747,7 @@
 	)
 	(label "column_voltage"
 		(at 49.53 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2747,6 +2758,7 @@
 	)
 	(label "column_voltage"
 		(at 137.16 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2757,6 +2769,7 @@
 	)
 	(label "d5_1"
 		(at 177.8 125.73 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2767,6 +2780,7 @@
 	)
 	(label "column_voltage2"
 		(at 138.43 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2777,6 +2791,7 @@
 	)
 	(label "d6_0"
 		(at 138.43 133.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2787,6 +2802,7 @@
 	)
 	(label "d1"
 		(at 85.09 -29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2797,6 +2813,7 @@
 	)
 	(label "d3"
 		(at 17.78 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2807,6 +2824,7 @@
 	)
 	(label "d6_0"
 		(at 93.98 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2817,6 +2835,7 @@
 	)
 	(label "d4"
 		(at 199.39 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2827,6 +2846,7 @@
 	)
 	(label "d3"
 		(at 199.39 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2837,6 +2857,7 @@
 	)
 	(label "d1"
 		(at 199.39 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2847,6 +2868,7 @@
 	)
 	(label "d1"
 		(at 17.78 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2857,6 +2879,7 @@
 	)
 	(label "d5_0"
 		(at 93.98 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2867,6 +2890,7 @@
 	)
 	(label "d2"
 		(at 199.39 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2877,6 +2901,7 @@
 	)
 	(label "d2"
 		(at 17.78 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2887,6 +2912,7 @@
 	)
 	(label "d7_1"
 		(at 17.78 118.11 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2897,6 +2923,7 @@
 	)
 	(label "d6_1"
 		(at 17.78 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2907,6 +2934,7 @@
 	)
 	(label "d2"
 		(at 93.98 11.43 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2917,6 +2945,7 @@
 	)
 	(label "d6_1"
 		(at 189.23 123.19 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2927,6 +2956,7 @@
 	)
 	(label "column_voltage"
 		(at 49.53 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,6 +2967,7 @@
 	)
 	(label "d6_1"
 		(at 137.16 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2947,6 +2978,7 @@
 	)
 	(label "column_voltage"
 		(at 49.53 -10.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2957,6 +2989,7 @@
 	)
 	(label "d4"
 		(at 93.98 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2967,6 +3000,7 @@
 	)
 	(label "column_voltage2"
 		(at 49.53 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2977,6 +3011,7 @@
 	)
 	(label "d5_1"
 		(at 17.78 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2987,6 +3022,7 @@
 	)
 	(label "d3"
 		(at 93.98 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2997,6 +3033,7 @@
 	)
 	(label "d7_0"
 		(at 93.98 219.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3008,6 +3045,7 @@
 	(hierarchical_label "3.3V"
 		(shape input)
 		(at 144.78 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3019,6 +3057,7 @@
 	(hierarchical_label "Column_voltage"
 		(shape input)
 		(at 147.32 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3152,7 +3191,7 @@
 			(uuid "24d883df-0d60-4fc4-8438-0f6ff5a17446")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "#PWR03")
 					(unit 1)
@@ -3681,7 +3720,7 @@
 			(uuid "28c22cb2-5fc2-40f3-9cc7-35fb9c225320")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "#PWR037")
 					(unit 1)
@@ -4357,7 +4396,7 @@
 			(uuid "7b24d3b9-2503-4206-841f-d5f107fe984e")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "#PWR05")
 					(unit 1)
@@ -4627,7 +4666,7 @@
 			(uuid "e83629df-a091-4a80-a046-253d3cef736f")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "#PWR052")
 					(unit 1)
@@ -8166,7 +8205,7 @@
 			(uuid "3f15881c-3a1c-44bd-8291-6aaeaa7154c0")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "J18")
 					(unit 1)
@@ -8233,7 +8272,7 @@
 			(uuid "7943c315-3078-4c89-8138-7d519bb37ec5")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "#PWR01")
 					(unit 1)
@@ -8500,7 +8539,7 @@
 			(uuid "4d318d8b-8d2e-4961-85cf-69b2436faac8")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "#PWR04")
 					(unit 1)
@@ -9116,7 +9155,7 @@
 			(uuid "eeaaa949-32f8-4e4a-af6e-cd50a27e9a76")
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "J17")
 					(unit 1)
@@ -9451,7 +9490,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "MuseMatrix_Core"
 				(path "/473e845e-7ed3-42b5-aa14-5895a6f0c76b/ed4494d0-8946-4ba9-a797-3fefaa08853d"
 					(reference "H1")
 					(unit 1)
