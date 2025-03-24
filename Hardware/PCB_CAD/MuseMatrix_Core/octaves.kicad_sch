@@ -1322,7 +1322,6 @@
 	(hierarchical_label "ADC_clock"
 		(shape input)
 		(at 212.09 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1334,7 +1333,6 @@
 	(hierarchical_label "DATA_OUT_ADC"
 		(shape input)
 		(at 212.09 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1346,7 +1344,6 @@
 	(hierarchical_label "DATA_IN_ADC"
 		(shape input)
 		(at 212.09 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1358,7 +1355,6 @@
 	(hierarchical_label "select"
 		(shape input)
 		(at 212.09 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

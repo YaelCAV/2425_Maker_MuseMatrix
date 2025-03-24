@@ -1053,7 +1053,6 @@
 	(hierarchical_label "ADC_data_out"
 		(shape input)
 		(at 168.91 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1065,7 +1064,6 @@
 	(hierarchical_label "ADC_select"
 		(shape input)
 		(at 168.91 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1077,7 +1075,6 @@
 	(hierarchical_label "ADC_data_in"
 		(shape input)
 		(at 168.91 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1089,7 +1086,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 135.89 104.14 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1101,7 +1097,6 @@
 	(hierarchical_label "clock_595"
 		(shape input)
 		(at 102.87 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1113,7 +1108,6 @@
 	(hierarchical_label "ADC_clock"
 		(shape input)
 		(at 168.91 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1125,7 +1119,6 @@
 	(hierarchical_label "3.3V"
 		(shape input)
 		(at 175.26 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1137,7 +1130,6 @@
 	(hierarchical_label "midi_out"
 		(shape input)
 		(at 102.87 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1149,7 +1141,6 @@
 	(hierarchical_label "data_595"
 		(shape input)
 		(at 102.87 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1161,7 +1152,6 @@
 	(hierarchical_label "Clock_165"
 		(shape input)
 		(at 102.87 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1173,7 +1163,6 @@
 	(hierarchical_label "parallel_load_165"
 		(shape input)
 		(at 102.87 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1185,7 +1174,6 @@
 	(hierarchical_label "Serial_out_165"
 		(shape input)
 		(at 102.87 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1197,7 +1185,6 @@
 	(hierarchical_label "latch_595"
 		(shape input)
 		(at 102.87 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x16_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 205.994 123.698 0)
 			(effects
 				(font

@@ -2043,18 +2043,6 @@
 		(color 0 0 0 0)
 		(uuid "f514f25e-765b-4eee-a987-b39d2762d513")
 	)
-	(no_connect
-		(at 17.78 123.19)
-		(uuid "a2d0be6f-149e-401e-8507-3a752f7f870f")
-	)
-	(no_connect
-		(at 17.78 120.65)
-		(uuid "a7a6a685-54d3-4a59-85d4-63331baa1d6d")
-	)
-	(no_connect
-		(at 17.78 125.73)
-		(uuid "c6c80444-f2d2-4b1a-ad45-ce7973755159")
-	)
 	(wire
 		(pts
 			(xy 80.01 209.55) (xy 81.28 209.55)
@@ -2227,26 +2215,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 123.19) (xy 186.7551 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66dca6aa-8492-4458-8117-ca66ef8e1b3f")
-	)
-	(wire
-		(pts
-			(xy 186.7551 123.19) (xy 186.7551 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6757e971-d1a8-4da8-8d88-a776f5c69920")
-	)
-	(wire
-		(pts
 			(xy 62.23 -39.37) (xy 60.96 -39.37)
 		)
 		(stroke
@@ -2254,16 +2222,6 @@
 			(type default)
 		)
 		(uuid "693163a4-f740-4133-9b97-44dee6948c56")
-	)
-	(wire
-		(pts
-			(xy 177.8 125.73) (xy 177.8 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ceafe75-ba6b-4ef2-ab69-5f7493f0acc5")
 	)
 	(wire
 		(pts
@@ -2334,16 +2292,6 @@
 			(type default)
 		)
 		(uuid "895fec0b-ecd1-495b-942c-0139ce2e20d1")
-	)
-	(wire
-		(pts
-			(xy 186.7551 120.65) (xy 199.39 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c10c9f5-97e1-4963-88ac-44de85eb45b2")
 	)
 	(wire
 		(pts
@@ -2577,16 +2525,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 199.39 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb86deb6-96cc-4291-988c-aa6658244830")
-	)
-	(wire
-		(pts
 			(xy 76.2 95.25) (xy 93.98 95.25)
 		)
 		(stroke
@@ -2594,16 +2532,6 @@
 			(type default)
 		)
 		(uuid "f6f87153-5ea7-4232-a7f1-414b52587ff4")
-	)
-	(wire
-		(pts
-			(xy 191.77 123.19) (xy 199.39 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faeb0f62-308a-4cca-a144-f0689916e31c")
 	)
 	(wire
 		(pts
@@ -2637,7 +2565,6 @@
 	)
 	(label "column_voltage2"
 		(at 49.53 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2647,8 +2574,7 @@
 		(uuid "10c46d8e-cb5e-4a8f-9bf3-b6b10889e6e5")
 	)
 	(label "d5_0"
-		(at 138.43 130.81 0)
-		(fields_autoplaced yes)
+		(at 138.43 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2659,7 +2585,6 @@
 	)
 	(label "d5_1"
 		(at 137.16 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2670,7 +2595,6 @@
 	)
 	(label "column_voltage2"
 		(at 49.53 198.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2680,19 +2604,17 @@
 		(uuid "1d9011c6-c6af-4e9c-b852-70f2a1877486")
 	)
 	(label "d7_1"
-		(at 191.77 123.19 90)
-		(fields_autoplaced yes)
+		(at 207.01 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2d834e6e-20c0-4ea9-9136-24a6b573d427")
 	)
 	(label "d7_0"
-		(at 138.43 135.89 0)
-		(fields_autoplaced yes)
+		(at 138.43 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2703,7 +2625,6 @@
 	)
 	(label "d7_1"
 		(at 137.16 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2714,7 +2635,6 @@
 	)
 	(label "d4"
 		(at 17.78 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2725,7 +2645,6 @@
 	)
 	(label "column_voltage"
 		(at 152.4 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,7 +2655,6 @@
 	)
 	(label "column_voltage"
 		(at 49.53 -50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2747,7 +2665,6 @@
 	)
 	(label "column_voltage"
 		(at 49.53 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2758,7 +2675,6 @@
 	)
 	(label "column_voltage"
 		(at 137.16 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2768,19 +2684,17 @@
 		(uuid "444fc260-9bc4-448c-a56b-c03b1c16a896")
 	)
 	(label "d5_1"
-		(at 177.8 125.73 90)
-		(fields_autoplaced yes)
+		(at 207.01 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4d80cb5a-3304-4437-a204-74be659a2cb9")
 	)
 	(label "column_voltage2"
-		(at 138.43 128.27 0)
-		(fields_autoplaced yes)
+		(at 138.43 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2790,8 +2704,7 @@
 		(uuid "4ed62bcc-a8d6-4883-88a9-8fc2457fc9fa")
 	)
 	(label "d6_0"
-		(at 138.43 133.35 0)
-		(fields_autoplaced yes)
+		(at 138.43 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2802,7 +2715,6 @@
 	)
 	(label "d1"
 		(at 85.09 -29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2813,7 +2725,6 @@
 	)
 	(label "d3"
 		(at 17.78 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2824,7 +2735,6 @@
 	)
 	(label "d6_0"
 		(at 93.98 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2834,8 +2744,7 @@
 		(uuid "6f8c5d82-d725-4e9d-8cc6-1fd98bb9aee3")
 	)
 	(label "d4"
-		(at 199.39 115.57 180)
-		(fields_autoplaced yes)
+		(at 207.01 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2845,8 +2754,7 @@
 		(uuid "6fc1d093-01be-4330-9fd4-8efa7cde0700")
 	)
 	(label "d3"
-		(at 199.39 113.03 180)
-		(fields_autoplaced yes)
+		(at 207.01 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2856,8 +2764,7 @@
 		(uuid "721659d8-6596-4b1c-ba9d-a07b43287bef")
 	)
 	(label "d1"
-		(at 199.39 107.95 180)
-		(fields_autoplaced yes)
+		(at 207.01 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2868,7 +2775,6 @@
 	)
 	(label "d1"
 		(at 17.78 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2879,7 +2785,6 @@
 	)
 	(label "d5_0"
 		(at 93.98 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2889,8 +2794,7 @@
 		(uuid "8f81365b-bcea-4dfc-91a6-0ab17e9c01cf")
 	)
 	(label "d2"
-		(at 199.39 110.49 180)
-		(fields_autoplaced yes)
+		(at 207.01 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2901,7 +2805,6 @@
 	)
 	(label "d2"
 		(at 17.78 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2912,7 +2815,6 @@
 	)
 	(label "d7_1"
 		(at 17.78 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2923,7 +2825,6 @@
 	)
 	(label "d6_1"
 		(at 17.78 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2934,7 +2835,6 @@
 	)
 	(label "d2"
 		(at 93.98 11.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,19 +2844,17 @@
 		(uuid "aec50cdc-43ee-4c09-86e1-05a10baabca3")
 	)
 	(label "d6_1"
-		(at 189.23 123.19 90)
-		(fields_autoplaced yes)
+		(at 207.01 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c131c55d-4db6-4dfa-934a-ae8c962c1971")
 	)
 	(label "column_voltage"
 		(at 49.53 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2967,7 +2865,6 @@
 	)
 	(label "d6_1"
 		(at 137.16 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2978,7 +2875,6 @@
 	)
 	(label "column_voltage"
 		(at 49.53 -10.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2989,7 +2885,6 @@
 	)
 	(label "d4"
 		(at 93.98 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3000,7 +2895,6 @@
 	)
 	(label "column_voltage2"
 		(at 49.53 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3011,7 +2905,6 @@
 	)
 	(label "d5_1"
 		(at 17.78 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3022,7 +2915,6 @@
 	)
 	(label "d3"
 		(at 93.98 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3033,7 +2925,6 @@
 	)
 	(label "d7_0"
 		(at 93.98 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3045,7 +2936,6 @@
 	(hierarchical_label "3.3V"
 		(shape input)
 		(at 144.78 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3057,7 +2947,6 @@
 	(hierarchical_label "Column_voltage"
 		(shape input)
 		(at 147.32 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3531,7 +3420,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 123.19 90)
+		(at 138.43 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3539,7 +3428,7 @@
 		(dnp no)
 		(uuid "120bf892-92c3-45c0-9942-5d3d74b9eb25")
 		(property "Reference" "#PWR072"
-			(at 144.78 123.19 0)
+			(at 144.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3437,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.462 118.364 0)
+			(at 142.748 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 123.19 0)
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 123.19 0)
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 123.19 0)
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6073,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x10_Socket")
-		(at 204.47 118.11 0)
+		(at 212.09 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6193,7 +6082,7 @@
 		(fields_autoplaced yes)
 		(uuid "8261b52d-5015-47be-b92c-7f38d494cfc1")
 		(property "Reference" "J3"
-			(at 205.74 118.1099 0)
+			(at 213.36 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6091,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10_Socket"
-			(at 205.74 120.6499 0)
+			(at 213.36 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,8 +6099,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:Skedd connector x10"
-			(at 204.47 118.11 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal"
+			(at 212.09 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 118.11 0)
+			(at 212.09 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6118,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 204.47 118.11 0)
+			(at 212.09 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x10_Socket"
+		(property "Value" "Conn_01x07_Socket"
 			(at 24.13 115.5699 0)
 			(effects
 				(font
@@ -7122,7 +7011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:Skedd connector x10"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal"
 			(at 22.86 113.03 0)
 			(effects
 				(font
@@ -8159,7 +8048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Skedd connector x6"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
 			(at 133.35 128.27 0)
 			(effects
 				(font
@@ -8886,7 +8775,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 138.43 125.73 270)
+		(at 138.43 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8894,7 +8783,7 @@
 		(dnp no)
 		(uuid "e4a7312c-082f-40fa-982c-277b4b5dedd3")
 		(property "Reference" "#PWR073"
-			(at 134.62 125.73 0)
+			(at 134.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +8792,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 144.526 125.476 90)
+			(at 144.526 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +8800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 125.73 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +8809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 125.73 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,7 +8818,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 138.43 125.73 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9109,7 +8998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Skedd connector x6"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
 			(at 132.08 104.14 0)
 			(effects
 				(font
